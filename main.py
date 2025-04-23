@@ -1,39 +1,3 @@
-# class Car:
-#     wheels = 4 #атрибут рівня об'єкту
-#     count = 0
-#     def __init__(self, color = None, brand = None):
-#         self.color = color #атрибут рівня об'єкту
-#         self.brand = brand
-#         Car.count +=1
-#     def get_brand(self):
-#         self.brand = Auto()
-#     def print_brand(self):
-#         print(self.brand)
-# # print(Car.count)
-# # c = Car("Red", "BMW")
-# # c1 = Car("Blue", "Ford")
-# # print(Car.count)
-# # print(getattr(Car, "wheels", 'No'))
-# # print(getattr(Car, "brand", 'No'))
-# # print(Car.__dict__)
-# # print(c1.__dict__)
-# # c1.year = 2020
-# # print(c1.__dict__)
-# # # print(isinstance(5, int))
-# # # print(isinstance(5, float))
-# # # print(isinstance(5, bool))
-# # print(isinstance(1, object))
-#
-# class Auto:
-#     def __init__(self):
-#         self.brand = "BMW"
-#
-# c = Car("Red")
-# print(c.brand)
-# c.get_brand()
-# print(c.brand)
-
-
 import random
 import tkinter as tk
 from tkinter import messagebox
